@@ -10,6 +10,9 @@ gem "wdm", "~> 0.1.0", platforms: [:mswin, :mingw]
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
+# styleguide generator https://github.com/trulia/hologram
+gem 'hologram'
+
 # Middleman Gems
 gem "middleman", ">= 4.0.0"
 gem "middleman-blog"

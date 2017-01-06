@@ -48,5 +48,8 @@
     "http-server": "^0.9.0",
     "load-grunt-tasks": "^3.5.2",
     "postcss-flexbugs-fixes": "^2.0.0"
+  },
+  "devDependencies": {
+    "hologram-github-theme": "^0.1.4"
   }
 }
