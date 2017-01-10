@@ -13,7 +13,7 @@ source: ./source/css
 destination: ./styleguide
 
 # The path that contains supporting assets for the documentation page
-documentation_assets: ./hologram-github-theme
+documentation_assets: hologram-github-theme
 
 
 # The folder that contains templates for rendering code examples.
@@ -32,7 +32,13 @@ documentation_assets: ./hologram-github-theme
 # document. May also include additional folders as needed.
 dependencies:
   # - ./www/css/bootstrap/bootstrap.css
-  - ./www/css/style.css
+ #  - source/css/style.css
+
+
+# The CSS files to be included in the styleguide
+css_include:
+  # - 'source/css/vendor.css'
+ # - 'source/css/style.css'
 
 # Mark which category should be the index page
 # Alternatively, you may have an index.md in the source directory root

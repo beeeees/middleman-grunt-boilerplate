@@ -150,7 +150,19 @@ module.exports = function(grunt) {
         }]
       }
     },
+    /**
+     * Hologram
+     *
+     */
 
+
+    hologram: {
+        generate: {
+          options: {
+            config: 'hologram_config.yml'
+          }
+        }
+      },
     /**
      * PostCSS
      *
@@ -221,7 +233,7 @@ module.exports = function(grunt) {
       },
       styles: {
         files: ['source/css/**/*.scss'],
-        tasks: ['sass', 'postcss'],
+        tasks: ['sass', 'postcss','hologram'],
       },
       images: {
         files: ['source/img/**'],
@@ -255,7 +267,7 @@ module.exports = function(grunt) {
   grunt.registerTask('showOptions');
 
   //When MM finishes building. We don't need to copy images here since MM will do it for us.
-  grunt.registerTask('build', ['copy:favicons', 'copy:fonts', 'copy:vendors', 'copy:videos', 'copy:pdfs', 'build:js', 'build:css', 'cacheBust']);
+  grunt.registerTask('build', ['copy:favicons', 'copy:fonts', 'copy:vendors', 'copy:videos', 'copy:pdfs', 'build:js', 'build:css', 'cacheBust', 'hologram']);
   grunt.registerTask('build:css', ['sass', 'postcss', 'cssmin']);
   grunt.registerTask('build:js', ['browserify', 'uglify']);
 

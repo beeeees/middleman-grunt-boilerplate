@@ -135,6 +135,7 @@
   margin-left: 20px;
   font-size: 14px;
   color: #777;
+  text-transform: capitalize;
 }
 
 .hgt-pagehead-nav-item {
@@ -409,4 +410,8 @@
 .hgt-footer:before {
     display: table;
     content: "";
+}
+
+.hgt-padding {
+  padding: 15px;
 }

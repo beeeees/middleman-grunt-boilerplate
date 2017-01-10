@@ -411,3 +411,7 @@
     display: table;
     content: "";
 }
+
+.hgt-padding {
+  padding: 15px;
+}

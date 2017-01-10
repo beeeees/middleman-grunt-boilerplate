@@ -2,18 +2,25 @@
 ---
 title: Buttons
 name: 0_buttons
-category: basics
+category: components
 ---
 
 
 Button styles can be applied to any element. Typically you'll want to
-use either a `<button>` or an `<a>` element:
+use either a `<button>` or an `<a>` element: This is also an example of using html_example_table to render a tabular layout in the styleguide. Leaving a line break will create a new row.
 
 
-```html_example
+```html_example_table
 <button class="btn btn-primary">Click Me</button>
+
 <a class="btn btn-secondary" href="#">Click Me!</a>
 
 ```
 
 */
+
+
+.btn-primary {
+  background: purple !important;
+}
+

@@ -1,0 +1,58 @@
+
+
+// Variables used throughout the site
+
+// Bootstrap settings and overrides
+$enable-flex:             true;
+$enable-transitions:      true;
+$speed:                   250ms;
+$easing:                  ease-in-out;
+
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+$gray-darker:               #111111 !default;
+$gray-dark:                 #373a3c !default;
+$gray:                      #55595c !default;
+$gray-light:                #818a91 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+
+$brand-primary:             #0275d8 !default;
+$brand-accent:              #7875d8 !default;
+$brand-success:             #5cb85c !default;
+$brand-info:                #5bc0de !default;
+$brand-warning:             #f0ad4e !default;
+$brand-danger:              #d9534f !default;
+$brand-inverse:             $gray-dark !default;
+
+
+/*doc
+---
+title: Variables
+name: 0_variables
+category: basics
+---
+
+
+##### Main Palette
+<div class="row">
+<div class="col-sm-6 col-md-3"> <div class="card card-block hgt-padding text-center" style="background-color: #0275d8; color: #ffffff;"> <p><strong>Brand Primary</strong></p> <p class="card-text"><code>$brand-primary</code></p> <p class="card-text">#0275d8</p> </div> </div>
+<div class="col-sm-6 col-md-3"> <div class="card card-block hgt-padding text-center" style="background-color: #7875d8; color: #ffffff;"> <p><strong>Brand Accent</strong></p> <p class="card-text"><code>$brand-accent</code></p> <p class="card-text">#7875d8</p> </div> </div>
+</div>
+
+
+##### Gray Palette
+<div class="row">
+<div class="col-sm-6 col-md-2"> <div class="card card-block hgt-padding text-center" style="background-color: #111111; color: #ffffff;"> <p><strong>Gray Darker</strong></p> <p class="card-text"><code>$brand-accent</code></p> <p class="card-text">#111111</p> </div> </div>
+<div class="col-sm-6 col-md-2"> <div class="card card-block hgt-padding text-center" style="background-color: #373a3c; color: #ffffff;"> <p><strong>Gray Dark</strong></p> <p class="card-text"><code>$brand-accent</code></p> <p class="card-text">#373a3c</p> </div> </div>
+<div class="col-sm-6 col-md-2"> <div class="card card-block hgt-padding text-center" style="background-color: #55595c; color: #ffffff;"> <p><strong>Gray </strong></p> <p class="card-text"><code>$brand-accent</code></p> <p class="card-text">#55595c</p> </div> </div>
+
+<div class="col-sm-6 col-md-2"> <div class="card card-block hgt-padding text-center" style="background-color: #818a91; color: #ffffff;"> <p><strong>Gray Light</strong></p> <p class="card-text"><code>$brand-accent</code></p> <p class="card-text">#818a91</p> </div> </div>
+<div class="col-sm-6 col-md-2"> <div class="card card-block hgt-padding text-center" style="background-color: #eceeef; color: #ffffff;"> <p><strong>Gray Lighter</strong></p> <p class="card-text"><code>$brand-accent</code></p> <p class="card-text">#eceeef</p> </div> </div>
+<div class="col-sm-6 col-md-2"> <div class="card card-block hgt-padding text-center" style="background-color: #f7f7f9; color: #ffffff;"> <p><strong>Gray Lightest</strong></p> <p class="card-text"><code>$brand-accent</code></p> <p class="card-text">#f7f7f9</p> </div> </div>
+</div>
+
+*/
