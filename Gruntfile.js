@@ -150,12 +150,11 @@ module.exports = function(grunt) {
         }]
       }
     },
+
     /**
      * Hologram
      *
      */
-
-
     hologram: {
         generate: {
           options: {
@@ -163,6 +162,7 @@ module.exports = function(grunt) {
           }
         }
       },
+
     /**
      * PostCSS
      *
