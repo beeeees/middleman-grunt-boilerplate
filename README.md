@@ -157,7 +157,7 @@ Username | Password
 
 ## Optional Hologram Styleguide Configuration
 
-This project includes the [Hologram Styleguide generator](http://trulia.github.io/hologram/) with the [Github Theme](https://github.com/wearecube/hologram-github-theme). The dependencies are already installed and the config file is included, but you can [view documentation](https://github.com/trulia/hologram#documenting-your-styles-and-components) on how to properly comment your CSS files so that it will write to the Styleguide or look at `_buttons.scss' for an example. Once your styles are properly documented, you can run `hologram -c hologram_config.yml` to build the styleguide. These files are located in the `/styleguide/` directory. You will have to build after any changes made to the styles.
+This project includes the [Hologram Styleguide generator](http://trulia.github.io/hologram/) with the [Github Theme](https://github.com/wearecube/hologram-github-theme). The dependencies are already installed and the config file is included, but you can [view documentation](https://github.com/trulia/hologram#documenting-your-styles-and-components) on how to properly comment your CSS files so that it will write to the Styleguide or look at `_buttons.scss` for an example. Once your styles are properly documented, you can run `hologram -c hologram_config.yml` to build the styleguide. These files are located in the `/styleguide/` directory. You will have to build after any changes made to the styles.
 
 The template for the Styleguide design itself is located in the folder `hologram-github-theme` if you would like to edit the way the styleguide is laid out or looks.
 
